@@ -1,1 +1,1 @@
-web: gunicorn active_gum.wsgi
+web: gunicorn active_gym.wsgi
