@@ -1,6 +1,6 @@
-# [Web page for](https://.herokuapp.com/)
+# [Web page for Active Gym](https://activegym.herokuapp.com/)
 
 ## Tech
-- [Python](#)
+- Python
 - [Django](https://www.djangoproject.com/)
 

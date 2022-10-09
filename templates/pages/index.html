@@ -2,8 +2,8 @@
 {% load static %}
 {% block content %}
 <div id="main-info">
-    <h3 style="margin: 2% 10%; color: black;">de Finibus Bonorum et Malorum</h3>
-    <div style="padding: 4% 2%; display: flex; background-color: black; justify-content: space-around;">
+    <h3 style="margin: 2% 10%;">de Finibus Bonorum et Malorum</h3>
+    <div style="padding: 4% 2%; display: flex; background-color: black; flex-direction: column; align-items: center;">
         <div class="photo_gallery">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -12,13 +12,13 @@
                 </button>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{% static 'img/1.jpg' %}" class="d-block w-100" alt="...">
+                        <img src="{% static 'img/photos/1.jpg' %}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="{% static 'img/1.jpg' %}" class="d-block w-100" alt="...">
+                        <img src="{% static 'img/photos/2.jpg' %}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="{% static 'img/1.jpg' %}" class="d-block w-100" alt="...">
+                        <img src="{% static 'img/photos/3.jpg' %}" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <div style="margin: 2% 10%; color: black;">
+    <div style="margin: 5% 10%;">
         <p class="p-text">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore

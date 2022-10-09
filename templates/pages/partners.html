@@ -1,10 +1,14 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
 <div id="partners">
     <h3>Partneri</h3>
-    <p>
-        <a href="https://www.pepebeauty.sk/">Pe&Pe Beauty House</a>
-    </p>
+    <div id="partners-block">
+        <div class="partner">
+            <a href="https://www.pepebeauty.sk/">
+                <img src="{% static 'img/partners/pepebeauty.png'%}" alt="pepebeauty">
+            </a>
+        </div>
+    </div>
 </div>
 {% endblock %}

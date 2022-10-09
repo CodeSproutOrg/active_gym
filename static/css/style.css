@@ -27,10 +27,13 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+#logo {
+    width: 200px;
+}
 #nav-bar {
-    margin: 2% 15%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 30%;
 }
 #social-media {
     display: flex;
@@ -48,21 +51,54 @@ header {
 
 /* footer */
 footer {
-   margin: 150px 8% 0 8%;
+   margin-top: 50px;
+   padding: 2% 8%;
+   background-color: gray;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
 }
+#footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+#footer-nav-links {
+    margin: 0 4%;
+    display: flex;
+    flex-direction: column;
+}
+#footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 /* main */
-main {}
 .photo_gallery {
     width: 55%;
 }
 #about-us {
     padding: 2% 8%;
 }
+
+/* Partners page */
 #partners {
    padding: 2% 8%;
+}
+#partners-block {
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* about-us */
+#full-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#info {
+    margin: 0 5%;
 }
