@@ -140,9 +140,12 @@ body {
     text-align: center;
     font-style: italic;
 }
-.gym {background-image: url(../img/gym.jpg);}
-.programs {background-image: url(../img/programs.jpg);}
-.trainings {background-image: url(../img/trainings.jpg);}
+
+#gym {background-image: url(../img/gym.jpg);}
+/*#gym:hover {background: rgba(0,0,0,0.1);}*/
+
+#programs {background-image: url(../img/programs.jpg);}
+#trainings {background-image: url(../img/trainings.jpg);}
 
 /* contact-us */
 #contact-main {
@@ -172,3 +175,4 @@ body {
     color:white;
     text-decoration: none;
 }
+.contact-footer-link:hover {color: #33414c;}
