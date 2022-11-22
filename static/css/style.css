@@ -1,0 +1,174 @@
+body {
+    font-family: "Anton", sans-serif;
+    color: white
+}
+
+#main-page {
+    background-image: url(../img/main_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#working-hours {
+    background-image: url(../img/working-hours.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about-us {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#services {
+    background-color: black;
+    height: 100vh;
+}
+#reviews {
+    background-color: black;
+    height: 100vh;
+}
+#contact-us {height: 100vh;}
+
+/* main */
+#main-links {
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-social-networks {
+    display: flex;
+    flex-direction: row;
+}
+.main-social-network {
+    padding: 0 5%;
+    width: 70%;
+}
+
+#main-info {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-title {
+    font-weight: 500;
+    font-size: 75px;
+    font-style: italic;
+}
+#main-title-1 {}
+#main-title-2 {color:#EC3237;}
+#main-button {
+    padding: 2%;
+    margin: 2%;
+    background: #EC3237;
+    color: white;
+    font-size: x-large;
+    border: none;
+}
+
+/* Working-hours */
+#working-hours {font-style: italic;}
+
+/* About Us */
+#about-us-title {font-style: italic;}
+#about-us-title-1 {color:#EC3237; font-size: 60px;}
+#about-us-title-2 {}
+
+#about-us-info {width: 50%; padding: 2%;}
+#about-us-text{}
+
+/* Reviews */
+#reviews-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    font-style: italic;
+
+}
+#review-title-1{font-size: 50px; color: #EC3237;}
+#review-title-2{font-size: 50px; margin-left: 10px;}
+#reviews-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.review {
+    height: 50vh;
+    width: 30%;
+    background-color: #EC3237;
+}
+.review-text {padding: 5%;}
+
+
+/* Services */
+#services-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+#services-title {
+    color:#EC3237;
+    font-size: 50px;
+    font-style: italic;
+}
+#services-text {}
+
+#services-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.services-options {
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+.gym {background-image: url(../img/gym.jpg);}
+.programs {background-image: url(../img/programs.jpg);}
+.trainings {background-image: url(../img/trainings.jpg);}
+
+/* contact-us */
+#contact-main {
+    background-image: url(../img/contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+#contact-title {
+    color: white;
+    padding-left: 5%;
+    font-size: xxx-large;
+}
+#contact-footer {
+    height: 20vh;
+    color: white;
+    background-color: #EC3237;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-footer-link {
+    padding: 1%;
+    color:white;
+    text-decoration: none;
+}
