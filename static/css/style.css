@@ -32,7 +32,7 @@ body {
 }
 #reviews {
     background-color: black;
-    height: 100vh;
+    height: 130vh;
 }
 #contact-us {height: 100vh;}
 
@@ -104,11 +104,21 @@ body {
     justify-content: space-around;
 }
 .review {
-    height: 50vh;
+    height: 75vh;
     width: 30%;
     background-color: #EC3237;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-.review-text {padding: 5%;}
+.review-img {
+    height: 100%;
+    width: 100%;
+}
+.review-text {
+    padding: 5%;
+}
 
 
 /* Services */
@@ -142,7 +152,7 @@ body {
 }
 
 #gym {background-image: url(../img/gym.jpg);}
-/*#gym:hover {background: rgba(0,0,0,0.1);}*/
+/* #gym:hover {background: rgba(0,0,0,0.1);} */
 
 #programs {background-image: url(../img/programs.jpg);}
 #trainings {background-image: url(../img/trainings.jpg);}
